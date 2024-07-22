@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+
+}
+
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1;
+}
+
+/* box1 */
+.nav-logo {
+    height: 50px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.logo {
+    background-image: url(img/amazonlogo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 35px;
+    width: 97px;
+    margin-top: 17px;
+
+}
+
+.logodotin {
+    color: white;
+
+}
+
+.border {
+    border-color: transparent;
+    border-style: solid;
+    border-width: 1.5px;
+    height: 50px;
+    border-radius: 2px;
+
+}
+
+.border:hover,.item:hover {
+    border-color: white;
+    border-style: solid;
+    border-width: 1.5px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+/* box2 */
+.nav-add {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-first {
+    font-size: 12px;
+    color: #cccccc;
+}
+
+.add-icon {
+    margin-top: 15px;
+}
+
+.address {
+    padding: 5px;
+}
+
+.add-second {
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 4px;
+    font-family: inherit;
+}
+
+/* box3 */
+.nav-search {
+    height: 51.6px;
+    display: flex;
+    align-items: center;
+}
+
+.searchbar {
+    height: 40px;
+    width: 707.33px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.searchbar {
+    border-color: transparent;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.searchbar:hover {
+    border-color: orange;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+select,
+input,
+.search-icon {
+    height: 40px;
+}
+
+input,
+select {
+    border: none;
+}
+
+select {
+    width: 60px;
+    text-align: center;
+    color: #0f1111;
+    background-color: #E6E6E6;
+    font-family: sans-serif;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    outline: none;
+}
+
+.search-icon {
+    width: 45px;
+    height: 40px;
+    background-color: #febd68;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: black;
+    border-color: transparent;
+    border-width: 2px;
+
+
+}
+
+
+
+.search {
+    width: 100%;
+    height: 40px;
+    font-size: 1rem;
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    outline: none;
+}
+
+/* box4 */
+.nav-lang {
+    height: 51.6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    box-sizing: border-box;
+}
+
+
+
+.lang {
+    margin-right: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* box5 */
+.nav-account,
+.nav-returns {
+    height: 51.6px;
+    padding-right: 10px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.account {
+    display: flex;
+}
+
+.acc-signin,
+.returns {
+    font-size: 12px;
+}
+
+.acc-list,
+.orders,
+.cart {
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* box6 */
+.nav-cart {
+    height: 51.6px;
+    padding-right: 10px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.cart-icon {
+    font-size: 40px;
+}
+
+.cart {
+    padding-top: 15px;
+}
+
+.panel {
+    background-color: #232f3e;
+    height: 40px;
+    color: #ffffff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.item {
+    height: 37px;
+    border: 1.5px solid transparent;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+/* item1 */
+
+.item-1{
+    margin-left: 5px;
+}
+
+.menu-icon{
+    margin-right: 3px;
+    height: 14px;
+    width: 17px;
+    align-self: center;
+}
+.category{
+    align-self: center;
+}
+
+
+/* item8 */
+.prime{
+    margin-right: 5px;
+}
+i#primedropdown{
+    height: 4px; 
+    width: 8px;
+}
